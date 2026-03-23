@@ -32,7 +32,7 @@ cat /etc/bandit_pass/$myname > /tmp/$mytarget
 ```
 
 
-This programm takes a string I am user $myname, hashes it and cuts the ouotput on ' '
+This programm takes a string 'I am user $myname', hashes it and cuts the ouotput on ' '
 If we run it we get an output of file that is located in /tmp folder that contains a password to bandit22 
 
 But we need a password from bandit23 
